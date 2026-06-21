@@ -1,6 +1,8 @@
 #!/bin/bash
 # entrypoint.sh
-# Runs ingestion on first startup (if vector data doesn't exist yet), then starts the API.
+# Runs ingestion on first startup (if vector data doesn't exist yet),
+# then starts BOTH the API (internal, port 8000) and the Streamlit
+# frontend (port 7860 - the port Hugging Face Spaces expects to see).
 
 set -e
 
@@ -11,5 +13,11 @@ else
     echo "Existing vector data found, skipping ingestion."
 fi
 
-echo "Starting API server..."
-exec uvicorn src.api:app --host 0.0.0.0 --port "${PORT:-8000}"
+echo "Starting API server in background (internal, port 8000)..."
+uvicorn src.api:app --host 0.0.0.0 --port 8000 &
+
+# Give the API a moment to start loading models before Streamlit tries to use it
+sleep 5
+
+echo "Starting Streamlit frontend (port 7860 - visible to Hugging Face Spaces)..."
+exec streamlit run app.py --server.port 7860 --server.address 0.0.0.0 --server.headless true
