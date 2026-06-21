@@ -1,0 +1,11 @@
+{
+  "eval_set_used": "qa_set_networking.json",
+  "baseline_hit_rate": 1.0,
+  "hybrid_hit_rate": 0.9642857142857143,
+  "hit_rate_improvement": -0.0357142857142857,
+  "baseline_mrr": 0.9535714285714285,
+  "hybrid_mrr": 0.9642857142857143,
+  "mrr_improvement": 0.010714285714285787,
+  "num_questions": 28,
+  "top_k": 5
+}

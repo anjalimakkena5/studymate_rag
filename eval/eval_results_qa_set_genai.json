@@ -1,0 +1,11 @@
+{
+  "eval_set_used": "qa_set_genai.json",
+  "baseline_hit_rate": 0.8636363636363636,
+  "hybrid_hit_rate": 1.0,
+  "hit_rate_improvement": 0.13636363636363635,
+  "baseline_mrr": 0.7424242424242423,
+  "hybrid_mrr": 0.8878787878787879,
+  "mrr_improvement": 0.14545454545454561,
+  "num_questions": 22,
+  "top_k": 5
+}

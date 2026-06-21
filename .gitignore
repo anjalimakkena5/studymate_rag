@@ -1,0 +1,10 @@
+venv/
+qdrant_data/
+__pycache__/
+*.pyc
+.env
+data/*.pdf
+data/*.pptx
+data/*.ppt
+bm25_index.pkl
+.DS_Store

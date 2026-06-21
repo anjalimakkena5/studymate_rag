@@ -1,0 +1,438 @@
+[
+  {
+    "question": "What is dynamic programming?",
+    "expected_source": "Cormen Introduction to Algorithms.pdf"
+  },
+  {
+    "question": "What is the 0-1 knapsack problem?",
+    "expected_source": "0-1 knapsack.pdf"
+  },
+  {
+    "question": "What is the difference between fractional and 0-1 knapsack?",
+    "expected_source": "Knapsack.pdf"
+  },
+  {
+    "question": "How do you solve a recurrence relation using the substitution method?",
+    "expected_source": "Recurrences.pdf"
+  },
+  {
+    "question": "What is the time complexity of solving a recurrence using the Master Theorem?",
+    "expected_source": "MasterTheorem.pdf"
+  },
+  {
+    "question": "How does Huffman coding achieve optimal compression?",
+    "expected_source": "Huffman.pdf"
+  },
+  {
+    "question": "How do you prove Huffman coding produces an optimal prefix code?",
+    "expected_source": "Huffman Proof.pdf"
+  },
+  {
+    "question": "What is the optimal binary search tree problem and how is it solved using dynamic programming?",
+    "expected_source": "OBST.pdf"
+  },
+  {
+    "question": "How do you count inversions in an array using a divide and conquer approach?",
+    "expected_source": "Counting Inversions.pdf"
+  },
+  {
+    "question": "What is asymptotic notation and why is it used to analyze algorithms?",
+    "expected_source": "AsymptoticAnalysis.pdf"
+  },
+  {
+    "question": "What is the time complexity of the standard matrix multiplication algorithm?",
+    "expected_source": "Matrix Multi.pdf"
+  },
+  {
+    "question": "How does the median of medians algorithm find the median in linear time?",
+    "expected_source": "Median 3.pdf"
+  },
+  {
+    "question": "What characterizes a problem suitable for dynamic programming versus greedy algorithms?",
+    "expected_source": "DynamicProgramming.pdf"
+  },
+  {
+    "question": "What is a design pattern and why are they used in object-oriented software design?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Strategy design pattern and when would you use it?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Observer design pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Singleton design pattern and what problem does it solve?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the key principles of object-oriented analysis and design?",
+    "expected_source": "O'Reilly Head First Object-Oriented Design and Analysis.pdf"
+  },
+  {
+    "question": "How do you write a basic SELECT query in SQL?",
+    "expected_source": "O'Reilly Head First SQL.pdf"
+  },
+  {
+    "question": "What is the difference between an INNER JOIN and a LEFT JOIN in SQL?",
+    "expected_source": "O'Reilly Head First SQL.pdf"
+  },
+  {
+    "question": "What is a primary key and how is it different from a foreign key in SQL?",
+    "expected_source": "O'Reilly Head First SQL.pdf"
+  },
+  {
+    "question": "What design principle is illustrated by separating flying and quacking behaviors from the Duck class?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why is inheritance insufficient for handling all duck behaviors?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What does \"Favor Composition over Inheritance\" mean?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the responsibilities of FlyBehavior and QuackBehavior?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does the Strategy Pattern support runtime behavior changes?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is meant by \"Encapsulate what varies\"?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the participants in the Strategy Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What benefits are achieved by programming to an interface?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the definition of the Observer Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the relationship between Subject and Observer?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is loose coupling?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why does the WeatherData object not need to know concrete observers?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What methods are typically defined in Observer interfaces?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the advantages of one-to-many relationships?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does automatic notification work in Observer?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What design principle is emphasized by Observer?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problem in the Starbuzz application motivates the Decorator Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Open-Closed Principle?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Decorator differ from inheritance?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the roles of Component and Decorator?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why are decorators considered transparent wrappers?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Java I/O use decorators?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the benefits of adding responsibilities dynamically?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What trade-offs does Decorator introduce?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why should object creation be encapsulated?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the intent of Factory Method?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the intent of Abstract Factory?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Factory Method differ from Abstract Factory?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Dependency Inversion Principle?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are Creator and Product in Factory Method?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why are concrete classes considered dependencies?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How do factories reduce coupling?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the intent of the Singleton Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why is controlling instantiation important?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does lazy initialization work?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problems arise with multithreading?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does synchronized access help Singleton?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is double-checked locking?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the drawbacks of Singleton?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What makes Singleton globally accessible?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the definition of the Command Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the responsibilities of Command, Receiver, and Invoker?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why encapsulate requests as objects?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How is undo functionality implemented?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a Macro Command?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does the Remote Control example illustrate Command?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What advantages does Command provide for logging requests?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Command support queuing requests?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problem does Adapter solve?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the role of the Adapter object?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Object Adapter work?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the difference between Adapter and Facade?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problem does Facade solve?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Principle of Least Knowledge?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why is Facade useful in complex subsystems?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are real-world examples of adapters?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a Template Method?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the purpose of hooks?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Hollywood Principle?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Which steps vary between Tea and Coffee preparation?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What benefits does Template Method provide?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does inversion of control occur in Template Method?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are abstract operations in a template?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How is code reuse achieved through Template Method?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problem does Iterator solve?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why should collection traversal be encapsulated?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the responsibilities of an Iterator?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the Single Responsibility Principle?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What problem does Composite solve?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a part-whole hierarchy?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does Composite treat individual objects and groups uniformly?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the benefits of recursive composition?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the intent of the State Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does State differ from Strategy?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "Why are large conditional statements problematic?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the states in the Gumball Machine example?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does behavior vary by state?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the responsibilities of concrete state classes?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How are state transitions managed?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What advantages does State provide for maintainability?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the intent of the Proxy Pattern?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a Remote Proxy?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a Virtual Proxy?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is a Protection Proxy?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How does a proxy control access to a subject?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What are the benefits of using proxies?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "How do Java Dynamic Proxies work conceptually?",
+    "expected_source": "head first design patterns.pdf"
+  },
+  {
+    "question": "What is the difference between Proxy and Decorator?",
+    "expected_source": "head first design patterns.pdf"
+  }
+]

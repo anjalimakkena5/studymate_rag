@@ -1,0 +1,12 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.git/
+.gitignore
+data/
+qdrant_data/
+bm25_index.pkl
+eval/
+README.md
+*.md

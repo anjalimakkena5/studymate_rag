@@ -1,0 +1,11 @@
+{
+  "eval_set_used": "qa_set_diverse.json",
+  "baseline_hit_rate": 1.0,
+  "hybrid_hit_rate": 1.0,
+  "hit_rate_improvement": 0.0,
+  "baseline_mrr": 1.0,
+  "hybrid_mrr": 1.0,
+  "mrr_improvement": 0.0,
+  "num_questions": 25,
+  "top_k": 5
+}
