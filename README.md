@@ -1,3 +1,13 @@
+---
+title: StudyMate RAG
+emoji: 📚
+colorFrom: blue
+colorTo: indigo
+sdk: docker
+app_port: 7860
+pinned: false
+---
+
 # StudyMate RAG — Week 1 Setup
 
 ## What this does (Week 1 scope)
