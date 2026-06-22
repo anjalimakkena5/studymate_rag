@@ -12,6 +12,7 @@ COPY --chown=user app.py .
 COPY --chown=user entrypoint.sh .
 RUN chmod +x entrypoint.sh
 COPY --chown=user data_demo/ ./data_demo/
+RUN chown -R user:user /app
 USER user
 ENV PATH="/home/user/.local/bin:$PATH"
 EXPOSE 7860
